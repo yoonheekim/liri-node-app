@@ -56,7 +56,7 @@
 2. append each command you run to the log.txt file.
 
 
-###etc
+### etc
 1. `run npm init -y —` 
     * this will initialize a package.json file
     * The package.json file is required for installing third party npm packages and saving their version numbers
