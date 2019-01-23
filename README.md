@@ -6,7 +6,7 @@
     * using the axios package to the Bands in Town, Spotify and OMDB APIs
 
 ## Technologies
-> Node-Spotify-API, OMDB API, the Bands In Town API, Axios, DotEnv, Node.js
+> Node-Spotify-API, OMDB API, the Bands In Town API, Axios, DotEnv, Node.js, Moment 
 
 ## 4 Command
 1. concert-this
@@ -16,8 +16,8 @@
         * Venue location
         * Date of the Event (use moment to format this as "MM/DD/YYYY")
     ```
-
     * Screenshot
+    ![alt text](https://yoonheekim.github.io/liri-node-app/images/concert_this.jpg)
 
 
 2. spotify-this-song
@@ -33,27 +33,27 @@
 
 3. movie-this
     * This will output the following information to your terminal/bash window:
-```
-   * Title of the movie.
-   * Year the movie came out.
-   * IMDB Rating of the movie.
-   * Rotten Tomatoes Rating of the movie.
-   * Country where the movie was produced.
-   * Language of the movie.
-   * Plot of the movie.
-   * Actors in the movie.
-```
+    ```
+       * Title of the movie.
+        * Year the movie came out.
+        * IMDB Rating of the movie.
+        * Rotten Tomatoes Rating of the movie.
+        * Country where the movie was produced.
+        * Language of the movie.
+        * Plot of the movie.
+        * Actors in the movie.
+    ```
    * If the user doesn't type a movie in, the program will output data for the movie `Mr. Nobody`
    * Screenshot
 
 4. do-what-it-says
     * Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-    * It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt. Edit the text in random.txt to test out the feature for movie-this and concert-this.
+    * It should run spotify-this-song for `"I Want it That Way"` as follows the text in `random.txt`. Edit the text in `random.txt` to test out the feature for movie-this and concert-this.
     * Screenshot
 
 ## log.txt
 1. In addition to logging the data to your terminal/bash window, output the data to a .txt file called `log.txt`
-2. append each command you run to the log.txt file.
+2. append each command you run to the `log.txt` file.
 
 
 ### etc
@@ -65,4 +65,5 @@
 3. `keys.js`, `.env`
     * be used by the dotenv package to set what are known as environment variables to the global process.env object in node. These are values that are meant to be specific to the computer that node is running on, and since we are gitignoring this file, they won't be pushed to github — keeping our API key information private.
     * If someone wanted to clone your app from github and run it themselves, they would need to supply their own .env file for it to work.
+4. 
 
