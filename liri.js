@@ -4,6 +4,7 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var axios = require("axios");
 var fs = require('fs');
+var moment = require('moment');
 
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
@@ -31,6 +32,19 @@ function readCommand(){
 
 
 function concert_this(){
+    var queryUrl = "https://rest.bandsintown.com/artists/" + names + "/events?app_id=codingbootcamp";
+    axios.get(queryUrl).then(function(response){
+        //console.log(response.data[0]);
+        var resultLog = "Name of the venue : "+response.data[0].venue.name+"\n"+
+                        "Venue location : "+response.data[0].venue.city+", "+response.data[0].venue.region+"\n"+
+                        "Date of the Event : " + moment(response.data[0].datetime).format('MM/DD/YYYY')+"\n"+
+                        "============================================="+"\n";
+                        console.log(resultLog);
+                        writeLog(resultLog);
+    })
+    .catch((err) => {
+        console.log('Error occurred: ' + err);
+    });
 
 }
 

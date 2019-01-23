@@ -1,0 +1,52 @@
+Name of the venue : Times Union Center
+Venue location : Albany, NY
+Date of the Event : 03/18/2019
+=============================================
+Name of the venue : Times Union Center
+Venue location : Albany, NY
+Date of the Event : 03/18/2019
+=============================================
+Artist : Justin Bieber
+The song's name : As Long As You Love Me
+A preview link of the song : null
+The album that the song is from : Believe (Deluxe Edition)
+=============================================
+Artist : Justin Bieber
+The song's name : As Long As You Love Me
+A preview link of the song : null
+The album that the song is from : Believe (Deluxe Edition)
+=============================================
+Artist : MIKA
+The song's name : Grace Kelly
+A preview link of the song : null
+The album that the song is from : Life in Cartoon Motion
+=============================================
+Artist : MIKA
+The song's name : Grace Kelly
+A preview link of the song : null
+The album that the song is from : Life in Cartoon Motion
+=============================================
+Artist : BTS
+The song's name : IDOL
+A preview link of the song : https://p.scdn.co/mp3-preview/fc013a8d8851b4b8342ad30b213e84fd68a6e365?cid=47f81a104f874234b2fd6296d7d7352a
+The album that the song is from : Love Yourself 結 'Answer'
+=============================================
+Artist : BTS
+The song's name : IDOL
+A preview link of the song : https://p.scdn.co/mp3-preview/fc013a8d8851b4b8342ad30b213e84fd68a6e365?cid=47f81a104f874234b2fd6296d7d7352a
+The album that the song is from : Love Yourself 結 'Answer'
+=============================================
+Title : Toy Story
+Year : 1995
+IMDB Rating : 8.3
+Rotten Tomatoes Rating : 100%
+Produced Country : USA
+Language : English
+Plot : A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.
+Actors: Tom Hanks, Tim Allen, Don Rickles, Jim Varney
+=============================================
+Artist : Backstreet Boys
+The song's name : I Want It That Way
+A preview link of the song : https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=47f81a104f874234b2fd6296d7d7352a
+The album that the song is from : The Hits--Chapter One
+=============================================
