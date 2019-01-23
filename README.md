@@ -30,6 +30,7 @@
     ```
     * If no song is provided then your program will default to `The Sign` by Ace of Base.
     * Screeshot
+    ![alt text](https://yoonheekim.github.io/liri-node-app/images/spotify_this_song.jpg)
 
 3. movie-this
     * This will output the following information to your terminal/bash window:
@@ -45,15 +46,19 @@
     ```
    * If the user doesn't type a movie in, the program will output data for the movie `Mr. Nobody`
    * Screenshot
+   ![alt text](https://yoonheekim.github.io/liri-node-app/images/movie_this.jpg)
 
 4. do-what-it-says
     * Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
     * It should run spotify-this-song for `"I Want it That Way"` as follows the text in `random.txt`. Edit the text in `random.txt` to test out the feature for movie-this and concert-this.
     * Screenshot
+    ![alt text](https://yoonheekim.github.io/liri-node-app/images/do_what_it_says.jpg)
 
 ## log.txt
 1. In addition to logging the data to your terminal/bash window, output the data to a .txt file called `log.txt`
 2. append each command you run to the `log.txt` file.
+    * Screenshot
+    ![alt text](https://yoonheekim.github.io/liri-node-app/images/logtxt.jpg)
 
 
 ### etc
@@ -65,5 +70,5 @@
 3. `keys.js`, `.env`
     * be used by the dotenv package to set what are known as environment variables to the global process.env object in node. These are values that are meant to be specific to the computer that node is running on, and since we are gitignoring this file, they won't be pushed to github — keeping our API key information private.
     * If someone wanted to clone your app from github and run it themselves, they would need to supply their own .env file for it to work.
-4. 
+
 
